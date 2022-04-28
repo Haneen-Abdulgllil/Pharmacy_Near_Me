@@ -62,6 +62,14 @@ Route::namespace('Auth')->group(function () {
 Route::namespace('Admin')->group(function () {
 
     Route::get('/admin_dashboard', [adminController::class, 'Show_index'])->name('Show_index');
+    Route::get('/phar', [adminController::class, 'Show_phar'])->name('Show_phar');
+    Route::get('/ads', [adminController::class, 'Show_ads'])->name('Show_ads');
+    Route::get('/user', [adminController::class, 'Show_user'])->name('Show_user');
+    Route::get('/complaints', [adminController::class, 'Show_complaints'])->name('Show_complaints');
+    Route::get('/notifications', [adminController::class, 'Show_notifications'])->name('Show_notifications');
+    Route::get('/cities', [adminController::class, 'Show_cities'])->name('Show_cities');
+    Route::get('/zone', [adminController::class, 'Show_zone'])->name('Show_zone');
+
 });
 
 Route::namespace('Phar')->group(function () {

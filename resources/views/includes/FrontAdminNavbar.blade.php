@@ -20,12 +20,12 @@
 			<li class="nav-item ps-3"><a class="nav-link"> <i
 					class="fas fa-bars" onclick="collapseSidebar()"></i>
 			</a></li>
-			<li class="nav-item"><img src="{{ asset('admin/img/leaf.svg') }}" alt="logo"
-				class="logo logo-light"> <img src="{{ asset('admin/img/leaf.svg') }}"
-				alt="logo" class="logo logo-dark"></li>
+			<!-- <li class="nav-item"><img src="{{ asset('admin/img/leaf.svg') }}" alt="logo"
+				class="logo logo-light "> <img src="{{ asset('admin/img/leaf.svg') }}"
+				alt="logo" class="logo logo-dark"></li> -->
 		</ul>
 		<h2>
-			<a href="index.html" class="text-success no-decor">ابولو</a>
+			<a href="index.html" class="no-decor mx-5" style = "color:#543ab7; ">ابولو</a>
 		</h2>
 		<form class="navbar-search" autocomplete="off">
         <i class="fas fa-search"></i>
